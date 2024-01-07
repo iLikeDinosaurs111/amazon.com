@@ -105,7 +105,7 @@ function updateMeltingSnowmanGraphic() {
 function checkWinOrLose() {
   if (guessedLetters.join('') === wordToGuess) {
     const messageContainer = document.querySelector('.message');
-    messageContainer.innerHTML = '<h1>You Win! (click -->)</h1> <a href="./gift/giveGift.html"> <img src="./images/key.png"></a>';
+    messageContainer.innerHTML = '<h1>You Win! (click -->)</h1> <a href="https://ilikedinosaurs111.github.io/gift/"> <img src="./images/key.png"></a>';
     const letterButtons = document.querySelectorAll('.letters button');
     letterButtons.forEach(button => {
       button.disabled = true;
